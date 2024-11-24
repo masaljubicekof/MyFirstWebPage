@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My First Website</title>
+  
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+   
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    
+    <header>
+      <h1 style="text-align:center">Welcome to My Webpage</h1>
+      <button type="button" class="btn btn-info">
+      Number of visitors: <span class="badge badge-light">168.025.810</span>
+      </button>
+    </header>
+
+    <div class="container py-5">
+      <h2 class="text-center"><b>Maša</b></h2>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card img-fluid" style="width:500px">
+            <img class="card-img-top" src="images/masacv.jpg" alt="Card image" style="width:100%; opacity:30%;"> 
+            <div class="card-img-overlay">
+              <h5 class="card-title"><b>About me</b></h5>
+             <p class="card-text">
+              I was born in Belgrade, Serbia on March 22nd 1996.
+              Once I gradueted from First Belgrade Gymnasium, I enrolled in Faculty of Economics.
+              Since my graduation I have been working as Accounts Payable Specialist in SR Technics.
+              By enrolling in International Master in Business Informatics, 
+              I am hoping to improve my knowlage and skills in order to adapt more quickly to changes in the labor market. 
+              I expect to learn a lot in <mark>DSS course</mark> as its 
+             </p>
+             <button type="button" class= "btn btn-light"; onclick="alert('Click on Movie recommendations')">Message</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card img-fluid" style="width:500px">
+            <img class="card-img-top" src="images/dobraslika3.jpg.png" alt="Card image" style="width:100%; opacity:30%;"> 
+            <div class="card-img-overlay">
+              <h5 class="card-title"><b>My hobbies and interests</b></h5>
+             <ul>
+              <li>Going to film festivals and cinemas</li>
+              <li>Learning foreign languages</li>
+              <li>Listening to podcasts</li>
+              <li>Learning new skills</li>
+              <li>Yoga and Pitales
+              <li>Trying new recipes</li>
+              <li>Going to meseums</li>
+              <li>Going to theaters</li>
+              <li>Traveling</li>
+             </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr/>
+    <button type="button" class= "btn btn-info"; onclick="alert('Have a great day!')">Click me!</button>
+    <footer>
+      <p><b> Please check out my movie recommendations by clicking below:</b></p>
+      <p><a href="movierecommendations.html" class="btn btn-dark">Movie recommendations</a></p>
+      <p style="text-align:right"><em>Author: Maša Ljubić</em> </p>
+    </footer>
+</html>
